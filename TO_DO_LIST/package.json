@@ -1,0 +1,15 @@
+{
+  "name": "tailwend-setap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "div": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Cette application de To Do List permet aux utilisateurs de gérer leurs tâches de manière efficace. Elle offre une interface moderne grâce à Tailwind CSS et inclut des fonctionnalités telles que l'ajout, la modification, et la suppression de tâches, ainsi que le suivi de leur statut et de leur priorité.",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
